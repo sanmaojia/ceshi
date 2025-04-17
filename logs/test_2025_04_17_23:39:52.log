@@ -1,0 +1,44 @@
+2025-04-17 23:39:52.460 | INFO     | conftest:fixture_session:16 - 开始初始化
+2025-04-17 23:39:52.803 | WARNING  | common.base_api:login:72 - type object 'GV' has no attribute 'add_attr'
+2025-04-17 23:39:52.806 | INFO     | common.wrapper:inner:25 - 请求接口：equity/productUserDetail
+2025-04-17 23:39:52.807 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-04-17 23:39:52.807 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'productUserId': '1215'}
+2025-04-17 23:39:52.903 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '登录认证失败', 'code': 401}
+2025-04-17 23:39:52.903 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-04-17 23:39:54.953 | INFO     | common.wrapper:inner:25 - 请求接口：equity/productUserDetail
+2025-04-17 23:39:54.953 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-04-17 23:39:54.953 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'productUserId': '1215'}
+2025-04-17 23:39:54.975 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '登录认证失败', 'code': 401}
+2025-04-17 23:39:54.975 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-04-17 23:39:56.989 | INFO     | common.wrapper:inner:25 - 请求接口：equity/productUserDetail
+2025-04-17 23:39:56.989 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-04-17 23:39:56.989 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'productUserId': '1215'}
+2025-04-17 23:39:57.011 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '登录认证失败', 'code': 401}
+2025-04-17 23:39:57.012 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-04-17 23:39:57.024 | INFO     | common.wrapper:inner:25 - 请求接口：equity/productUserDetail
+2025-04-17 23:39:57.024 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-04-17 23:39:57.024 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'productUserId': '1215', 'notLoading': True}
+2025-04-17 23:39:57.044 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '登录认证失败', 'code': 401}
+2025-04-17 23:39:57.045 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-04-17 23:39:59.061 | INFO     | common.wrapper:inner:25 - 请求接口：equity/productUserDetail
+2025-04-17 23:39:59.062 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-04-17 23:39:59.062 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'productUserId': '1215', 'notLoading': True}
+2025-04-17 23:39:59.085 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '登录认证失败', 'code': 401}
+2025-04-17 23:39:59.086 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-04-17 23:40:01.104 | INFO     | common.wrapper:inner:25 - 请求接口：equity/productUserDetail
+2025-04-17 23:40:01.105 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-04-17 23:40:01.105 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'productUserId': '1215', 'notLoading': True}
+2025-04-17 23:40:01.139 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '登录认证失败', 'code': 401}
+2025-04-17 23:40:01.140 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-04-17 23:40:01.154 | INFO     | common.wrapper:inner:25 - 请求接口：equity/productUserDetail
+2025-04-17 23:40:01.154 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-04-17 23:40:01.155 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'productUserId': '1215', 'notLoading': True}
+2025-04-17 23:40:01.181 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '登录认证失败', 'code': 401}
+2025-04-17 23:40:01.181 | INFO     | common.wrapper:inner:49 - 响应状态码：200

@@ -1,0 +1,9 @@
+requests==2.32.3
+pytest==8.3.4
+PyMySQL==1.1.1
+loguru==0.7.3
+PyYAML==6.0.2
+Faker==35.2.0
+jsonpath==0.82.2
+allure-pytest==2.13.5
+pytest-rerunfailures==15.0

@@ -1,0 +1,67 @@
+2025-02-18 10:52:45.260 | INFO     | conftest:fixture_session:15 - 开始初始化
+2025-02-18 10:52:45.407 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'Authorization'，其值为 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJlSUJZRmptWGJHOFVUUTJadVBnMlI3eXZPVkc2VE1nUSIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcIm9sZFVzZXJJZFwiOjY5MixcInVzZXJPcGVuaWRcIjpudWxsLFwiY2hhbm5lbE5vXCI6bnVsbCxcImdtdENyZWF0ZWRcIjpcIjIwMjQtMTAtMjEgMTc6NDU6MDFcIn0ifQ.NW1zCXmq0P3OBTYamKKIfrhCkwfWGA8e3Yv-EFy4wVc'。
+2025-02-18 10:52:45.410 | INFO     | common.wrapper:inner:25 - 请求接口：user/sendSms
+2025-02-18 10:52:45.410 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-18 10:52:45.410 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'mobile': '18344662471'}
+2025-02-18 10:52:45.497 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0}
+2025-02-18 10:52:45.497 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-18 10:52:45.497 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'canshu'，其值为 '0'。
+2025-02-18 10:52:45.498 | INFO     | common.wrapper:inner:68 - jsonpath表达式：['$..code', '$..msg']
+2025-02-18 10:52:45.498 | INFO     | common.wrapper:inner:69 - 预期结果: [0, '操作成功']
+2025-02-18 10:52:45.498 | INFO     | common.wrapper:inner:70 - 实际结果: [0, '操作成功']
+2025-02-18 10:52:45.498 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-18 10:52:45.503 | INFO     | common.wrapper:inner:25 - 请求接口：user/login
+2025-02-18 10:52:45.503 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-18 10:52:45.503 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'mobile': '18344662471'}
+2025-02-18 10:52:45.599 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0, 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJmazZMaThpSkJUcVNsRUtjV2FHak5aM3JQbG4xQTFqYiIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcIm9sZFVzZXJJZFwiOjY5MixcInVzZXJPcGVuaWRcIjpudWxsLFwiY2hhbm5lbE5vXCI6bnVsbCxcImdtdENyZWF0ZWRcIjpcIjIwMjQtMTAtMjEgMTc6NDU6MDFcIn0ifQ.Bvc0Vm88yiCjmmelY7BSyXEbcgXne0haTcu9VdV8yCQ', 'user': {'id': 132, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'account': '18344662471', 'name': '', 'idType': 0, 'idCard': '', 'mobile': '18344662471', 'from': None, 'status': 1, 'oldUserId': 692, 'userOpenid': None, 'channelNo': None, 'gmtCreated': '2024-10-21 17:45:01'}}}
+2025-02-18 10:52:45.599 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-18 10:52:45.599 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'Authorization'，其值为 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJmazZMaThpSkJUcVNsRUtjV2FHak5aM3JQbG4xQTFqYiIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcIm9sZFVzZXJJZFwiOjY5MixcInVzZXJPcGVuaWRcIjpudWxsLFwiY2hhbm5lbE5vXCI6bnVsbCxcImdtdENyZWF0ZWRcIjpcIjIwMjQtMTAtMjEgMTc6NDU6MDFcIn0ifQ.Bvc0Vm88yiCjmmelY7BSyXEbcgXne0haTcu9VdV8yCQ'。
+2025-02-18 10:52:45.600 | INFO     | common.wrapper:inner:68 - jsonpath表达式：['$..code']
+2025-02-18 10:52:45.600 | INFO     | common.wrapper:inner:69 - 预期结果: [0]
+2025-02-18 10:52:45.600 | INFO     | common.wrapper:inner:70 - 实际结果: [0]
+2025-02-18 10:52:45.601 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-18 10:52:45.606 | INFO     | common.wrapper:inner:25 - 请求接口：user/login
+2025-02-18 10:52:45.606 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-18 10:52:45.606 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'mobile': '18344662471'}
+2025-02-18 10:52:45.689 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0, 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJQTVltQVQxNThEQURLY0l4enVyUE1OWVRtaDcwVXMxNyIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcIm9sZFVzZXJJZFwiOjY5MixcInVzZXJPcGVuaWRcIjpudWxsLFwiY2hhbm5lbE5vXCI6bnVsbCxcImdtdENyZWF0ZWRcIjpcIjIwMjQtMTAtMjEgMTc6NDU6MDFcIn0ifQ.WenPKo7prMFFMCZs1LOgETfaq87PaY6gZaTAo9FAH24', 'user': {'id': 132, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'account': '18344662471', 'name': '', 'idType': 0, 'idCard': '', 'mobile': '18344662471', 'from': None, 'status': 1, 'oldUserId': 692, 'userOpenid': None, 'channelNo': None, 'gmtCreated': '2024-10-21 17:45:01'}}}
+2025-02-18 10:52:45.689 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-18 10:52:45.690 | WARNING  | common.utils:extract:89 - 提取表达式为空！
+2025-02-18 10:52:45.690 | WARNING  | common.wrapper:inner:66 - 传入的预期结果为 None
+2025-02-18 10:52:45.690 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-18 10:52:45.695 | INFO     | common.wrapper:inner:25 - 请求接口：address/list
+2025-02-18 10:52:45.695 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-18 10:52:45.695 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'pageNum': '1', 'pageSize': '5'}
+2025-02-18 10:52:45.746 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0, 'data': {'total': 141, 'list': [{'id': 83, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'name': '吕朝晖', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区彭埠街道杭州柠盟眼科医院东站西子国际大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 0, 'status': 1, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)', 'gmtCreated': '2024-10-21 20:43:09', 'gmtUpdated': '2025-02-11 18:09:28'}, {'id': 856, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'name': '张三', 'mobile': '18344662471', 'province': '上海市', 'provinceCode': '', 'city': '县', 'district': '崇明县', 'districtCode': '', 'cityCode': '', 'address': '上海市县崇明县', 'lat': '', 'lng': '', 'isDefault': 0, 'status': 1, 'tag': '', 'houseNo': '好的好的好', 'addressName': '', 'gmtCreated': '2025-01-20 15:49:09', 'gmtUpdated': '2025-01-20 15:49:09'}, {'id': 939, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'name': '测试2', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区测试大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 1, 'status': 1, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)', 'gmtCreated': '2025-02-11 18:09:28', 'gmtUpdated': '2025-02-18 10:51:46'}, {'id': 940, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'name': '测试2', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区测试大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 0, 'status': 1, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)', 'gmtCreated': '2025-02-11 18:15:19', 'gmtUpdated': '2025-02-11 18:15:18'}, {'id': 941, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'name': '测试2', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区测试大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 0, 'status': 1, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)', 'gmtCreated': '2025-02-11 18:17:25', 'gmtUpdated': '2025-02-11 18:17:25'}]}}
+2025-02-18 10:52:45.746 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-18 10:52:45.747 | WARNING  | common.wrapper:inner:66 - 传入的预期结果为 None
+2025-02-18 10:52:45.747 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-18 10:52:45.750 | INFO     | common.wrapper:inner:25 - 请求接口：address/detail
+2025-02-18 10:52:45.750 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-18 10:52:45.750 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'id': '83'}
+2025-02-18 10:52:45.787 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0, 'data': {'id': 83, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'name': '吕朝晖', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区彭埠街道杭州柠盟眼科医院东站西子国际大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 0, 'status': 1, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)', 'gmtCreated': '2024-10-21 20:43:09', 'gmtUpdated': '2025-02-11 18:09:28'}}
+2025-02-18 10:52:45.787 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-18 10:52:45.787 | WARNING  | common.wrapper:inner:66 - 传入的预期结果为 None
+2025-02-18 10:52:45.787 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-18 10:52:45.790 | INFO     | common.wrapper:inner:25 - 请求接口：address/add
+2025-02-18 10:52:45.790 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-18 10:52:45.790 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'name': '测试2', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区测试大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 1, 'status': 1, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)'}
+2025-02-18 10:52:45.837 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0, 'data': {'id': 1104, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'name': '测试2', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区测试大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 1, 'status': None, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)', 'gmtCreated': '2025-02-18 10:52:45', 'gmtUpdated': '2025-02-18 10:52:45'}}
+2025-02-18 10:52:45.837 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-18 10:52:45.837 | WARNING  | common.wrapper:inner:66 - 传入的预期结果为 None
+2025-02-18 10:52:45.837 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-18 10:52:45.840 | INFO     | common.wrapper:inner:25 - 请求接口：address/update
+2025-02-18 10:52:45.840 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-18 10:52:45.840 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'id': '939', 'name': '测试2', 'mobile': '18344662471', 'province': '浙江省', 'provinceCode': '', 'city': '杭州市', 'district': '上城区', 'districtCode': '', 'cityCode': '', 'address': '浙江省杭州市上城区测试大厦', 'lat': '30.296683', 'lng': '120.217452', 'isDefault': 1, 'status': 1, 'tag': '', 'houseNo': '哈哈', 'addressName': '百灵快修手机电脑维修回收(火车东站店)'}
+2025-02-18 10:52:45.886 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'code': 0, 'msg': '操作成功', 'data': None}
+2025-02-18 10:52:45.886 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-18 10:52:45.887 | WARNING  | common.wrapper:inner:66 - 传入的预期结果为 None
+2025-02-18 10:52:45.887 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-18 10:52:45.888 | INFO     | conftest:fixture_session:19 - 开始后置清理程序
+2025-02-18 10:52:47.707 | INFO     | common.gv:gen_allure:77 - 测试报告已生成！

@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","106","登录失败","testcases.test_api","Mon Feb 24 17:50:59 CST 2025","passed","Mon Feb 24 17:50:59 CST 2025","TestUser","test_user","",""
+"","92","地址列表","testcases.test_scenario","Mon Feb 24 17:50:59 CST 2025","passed","Mon Feb 24 17:50:59 CST 2025","TestAddress","test_address","",""
+"","98","发送验证码成功","testcases.test_api","Mon Feb 24 17:50:59 CST 2025","passed","Mon Feb 24 17:50:59 CST 2025","TestUser","test_user","",""
+"","75","添加地址","testcases.test_scenario","Mon Feb 24 17:51:00 CST 2025","passed","Mon Feb 24 17:51:00 CST 2025","TestAddress","test_address","",""
+"","113","登录成功","testcases.test_api","Mon Feb 24 17:50:59 CST 2025","passed","Mon Feb 24 17:50:59 CST 2025","TestUser","test_user","",""
+"","352","修改地址","testcases.test_scenario","Mon Feb 24 17:51:00 CST 2025","passed","Mon Feb 24 17:51:00 CST 2025","TestAddress","test_address","",""
+"","600","地址详情","testcases.test_scenario","Mon Feb 24 17:50:59 CST 2025","passed","Mon Feb 24 17:51:00 CST 2025","TestAddress","test_address","",""

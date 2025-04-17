@@ -1,0 +1,36 @@
+send_code:
+  - title: '发送验证码成功'
+    account:
+      method: 'post'
+      url: 'user/sendSms'
+      json:
+        mobile: '13012987185'
+    extract:
+      canshu: '$..code'
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+    status: 200
+
+
+
+login:
+  - title: '登录成功'
+    account:
+      method: 'post'
+      url: 'user/login'
+      json:
+        mobile: '13012987185'
+    extract:
+      Authorization: '$..token'
+    expected:
+      $..code: 0
+
+  - title: '登录失败'
+    account:
+      method: 'post'
+      url: 'user/login'
+      json:
+        mobile: '18344662471'
+    extract:
+    expected:

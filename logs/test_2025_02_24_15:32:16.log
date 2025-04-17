@@ -1,0 +1,14 @@
+2025-02-24 15:32:16.601 | INFO     | conftest:fixture_session:15 - 开始初始化
+2025-02-24 15:32:16.804 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'Authorization'，其值为 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiI0NFNPTWhvbktQcFg2c0xIdnl2ejF0ZGpXeTFYaUp3YiIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcInZpcFN0YXR1c1wiOjAsXCJvbGRVc2VySWRcIjo2OTIsXCJ1c2VyT3BlbmlkXCI6bnVsbCxcImNoYW5uZWxOb1wiOm51bGwsXCJjaGFubmVsTmFtZVwiOm51bGwsXCJnbXRDcmVhdGVkXCI6XCIyMDI0LTEwLTIxIDE3OjQ1OjAxXCJ9In0.cljMby7sYOWScFckt6g0jILYJB01FC1mGIshmO3NBOc'。
+2025-02-24 15:32:16.806 | INFO     | common.wrapper:inner:25 - 请求接口：user/sendSms
+2025-02-24 15:32:16.806 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-24 15:32:16.806 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'mobile': '18344662471'}
+2025-02-24 15:32:16.874 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0}
+2025-02-24 15:32:16.874 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-24 15:32:16.874 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'canshu'，其值为 '0'。
+2025-02-24 15:32:16.874 | INFO     | common.wrapper:inner:68 - jsonpath表达式：['$..code', '$..msg']
+2025-02-24 15:32:16.874 | INFO     | common.wrapper:inner:69 - 预期结果: [0, '操作成功']
+2025-02-24 15:32:16.874 | INFO     | common.wrapper:inner:70 - 实际结果: [0, '操作成功']
+2025-02-24 15:32:16.874 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-24 15:32:16.875 | INFO     | conftest:fixture_session:19 - 开始后置清理程序

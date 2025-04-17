@@ -1,0 +1,34 @@
+2025-02-24 15:32:45.834 | INFO     | conftest:fixture_session:15 - 开始初始化
+2025-02-24 15:32:45.978 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'Authorization'，其值为 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJ0bHZDQ3h4c0xDTU16bU5GWTRMdlhzaFBVRmZKUXVnRiIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcInZpcFN0YXR1c1wiOjAsXCJvbGRVc2VySWRcIjo2OTIsXCJ1c2VyT3BlbmlkXCI6bnVsbCxcImNoYW5uZWxOb1wiOm51bGwsXCJjaGFubmVsTmFtZVwiOm51bGwsXCJnbXRDcmVhdGVkXCI6XCIyMDI0LTEwLTIxIDE3OjQ1OjAxXCJ9In0.kD7kznvjz61S930CtXigMdB-PCziHrfv8mENhe-a4uk'。
+2025-02-24 15:32:45.980 | INFO     | common.wrapper:inner:25 - 请求接口：user/sendSms
+2025-02-24 15:32:45.980 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-24 15:32:45.980 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'mobile': '18344662471'}
+2025-02-24 15:32:46.058 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0}
+2025-02-24 15:32:46.058 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-24 15:32:46.058 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'canshu'，其值为 '0'。
+2025-02-24 15:32:46.059 | INFO     | common.wrapper:inner:68 - jsonpath表达式：['$..code', '$..msg']
+2025-02-24 15:32:46.059 | INFO     | common.wrapper:inner:69 - 预期结果: [0, '操作成功']
+2025-02-24 15:32:46.059 | INFO     | common.wrapper:inner:70 - 实际结果: [0, '操作成功']
+2025-02-24 15:32:46.059 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-24 15:32:46.061 | INFO     | common.wrapper:inner:25 - 请求接口：user/login
+2025-02-24 15:32:46.061 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-24 15:32:46.061 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'mobile': '18344662471'}
+2025-02-24 15:32:46.155 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0, 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJ0bHNGNWdYMkh6WElOVE8wN3VjNnlHZUFWZDB2cXdrSiIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcInZpcFN0YXR1c1wiOjAsXCJvbGRVc2VySWRcIjo2OTIsXCJ1c2VyT3BlbmlkXCI6bnVsbCxcImNoYW5uZWxOb1wiOm51bGwsXCJjaGFubmVsTmFtZVwiOm51bGwsXCJnbXRDcmVhdGVkXCI6XCIyMDI0LTEwLTIxIDE3OjQ1OjAxXCJ9In0.JvbbiFwouWt8z4iWESWRAIH1PV_7cXvR7X8PexDiTJU', 'user': {'id': 132, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'account': '18344662471', 'name': '', 'idType': 0, 'idCard': '', 'mobile': '18344662471', 'from': None, 'status': 1, 'vipStatus': 0, 'oldUserId': 692, 'userOpenid': None, 'channelNo': None, 'channelName': None, 'gmtCreated': '2024-10-21 17:45:01'}}}
+2025-02-24 15:32:46.155 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-24 15:32:46.156 | INFO     | common.gv:add_attr:24 - 已向 GVData 类添加属性 'Authorization'，其值为 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJ0bHNGNWdYMkh6WElOVE8wN3VjNnlHZUFWZDB2cXdrSiIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcInZpcFN0YXR1c1wiOjAsXCJvbGRVc2VySWRcIjo2OTIsXCJ1c2VyT3BlbmlkXCI6bnVsbCxcImNoYW5uZWxOb1wiOm51bGwsXCJjaGFubmVsTmFtZVwiOm51bGwsXCJnbXRDcmVhdGVkXCI6XCIyMDI0LTEwLTIxIDE3OjQ1OjAxXCJ9In0.JvbbiFwouWt8z4iWESWRAIH1PV_7cXvR7X8PexDiTJU'。
+2025-02-24 15:32:46.156 | INFO     | common.wrapper:inner:68 - jsonpath表达式：['$..code']
+2025-02-24 15:32:46.156 | INFO     | common.wrapper:inner:69 - 预期结果: [0]
+2025-02-24 15:32:46.156 | INFO     | common.wrapper:inner:70 - 实际结果: [0]
+2025-02-24 15:32:46.156 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-24 15:32:46.158 | INFO     | common.wrapper:inner:25 - 请求接口：user/login
+2025-02-24 15:32:46.158 | INFO     | common.wrapper:inner:29 - 请求方式：post
+2025-02-24 15:32:46.158 | INFO     | common.wrapper:inner:33 - 请求 JSON 参数：{'mobile': '18344662471'}
+2025-02-24 15:32:46.249 | INFO     | common.wrapper:inner:44 - 响应 body（JSON 格式）：
+{'msg': '操作成功', 'code': 0, 'data': {'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOjEzMiwicm5TdHIiOiJtZnZtQ3N2M2NkQWJZcWJIdDYwNEZmeVQwSlp4cVhnbiIsInVzZXJJbmZvIjoie1wiaWRcIjoxMzIsXCJ1c2VyTm9cIjpcImNhZjY2ZjVlM2Q2MDRlYTk4Mjc5MDdkZjMwNmQyYTJkXCIsXCJhY2NvdW50XCI6XCIxODM0NDY2MjQ3MVwiLFwibmFtZVwiOlwiXCIsXCJpZFR5cGVcIjowLFwiaWRDYXJkXCI6XCJcIixcIm1vYmlsZVwiOlwiMTgzNDQ2NjI0NzFcIixcImZyb21cIjpudWxsLFwic3RhdHVzXCI6MSxcInZpcFN0YXR1c1wiOjAsXCJvbGRVc2VySWRcIjo2OTIsXCJ1c2VyT3BlbmlkXCI6bnVsbCxcImNoYW5uZWxOb1wiOm51bGwsXCJjaGFubmVsTmFtZVwiOm51bGwsXCJnbXRDcmVhdGVkXCI6XCIyMDI0LTEwLTIxIDE3OjQ1OjAxXCJ9In0.khjOqMvs-aiz7WR7eOlMWZz8W07JRSorAaTdGlyuOOk', 'user': {'id': 132, 'userNo': 'caf66f5e3d604ea9827907df306d2a2d', 'account': '18344662471', 'name': '', 'idType': 0, 'idCard': '', 'mobile': '18344662471', 'from': None, 'status': 1, 'vipStatus': 0, 'oldUserId': 692, 'userOpenid': None, 'channelNo': None, 'channelName': None, 'gmtCreated': '2024-10-21 17:45:01'}}}
+2025-02-24 15:32:46.249 | INFO     | common.wrapper:inner:49 - 响应状态码：200
+2025-02-24 15:32:46.250 | WARNING  | common.utils:extract:89 - 提取表达式为空！
+2025-02-24 15:32:46.250 | WARNING  | common.wrapper:inner:66 - 传入的预期结果为 None
+2025-02-24 15:32:46.250 | INFO     | common.wrapper:inner:76 - 断言结果: 成功
+2025-02-24 15:32:46.250 | INFO     | conftest:fixture_session:19 - 开始后置清理程序
