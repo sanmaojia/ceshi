@@ -1,0 +1,152 @@
+header_card:
+  - title: '获取渠道ID'
+    account:
+      method: 'post'
+      url: 'equity/productUserDetail'
+      json:
+        productUserId: '1215'
+    extract:
+      channelNo: '$..data.channelNo'
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.channelNo: '$channelNo'
+    status: 200
+
+  - title: '获取产品名称'
+    account:
+      method: 'post'
+      url: 'equity/productUserDetail'
+      json:
+        productUserId: '1215'
+        notLoading : true
+    extract:
+      productName: '$..data.productName'
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.productName: '$productName'
+    status: 200
+
+  - title: '获取产品有效期'
+    account:
+      method: 'post'
+      url: 'equity/productUserDetail'
+      json:
+        productUserId: '1215'
+        notLoading : true
+    extract:
+      startTime: '$..data.startTime'
+      endTime: '$..data.endTime'
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.startTime: '$startTime'
+      $..data.endTime: '$endTime'
+    status: 200
+
+
+  - title: '获取产品头部文案'
+    account:
+      method: 'post'
+      url: 'equity/productUserDetail'
+      json:
+        productUserId: '1215'
+    extract:
+      description: '$..data.description'
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.description: '$description'
+    status: 200
+
+  - title: '获取产品ID'
+    account:
+      method: 'post'
+      url: 'equity/productUserDetail'
+      json:
+        productUserId: '1215'
+    extract:
+      productId: $..data.productId
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.productId: 1
+
+    status: 200
+  - title: '获取产品权益ID'
+    account:
+      method: 'post'
+      url: 'equity/productUserDetail'
+      json:
+        productUserId: '1215'
+    extract:
+      status: $..data.status
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.status: 1
+      $..data.equities[*].benefitId: 27
+    status: 200
+  - title: '获取产品状态'
+    account:
+      method: 'post'
+      url: 'equity/productUserDetail'
+      json:
+        productUserId: '1215'
+    extract:
+      status: $..data.status
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.status: 1
+    status: 200
+  - title: '获取被保人手机号'
+    account:
+      method: 'post'
+      url: 'patient/bindList'
+      json:
+        productUserId: '1215'
+        channelNo: 'RZ'
+    extract:
+      mobile: $.data[0].mobile
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $.data[0].mobile: $mobile
+    status: 200
+  - title: '获取被保人的身份证号'
+    account:
+      method: 'post'
+      url: 'patient/bindList'
+      json:
+        productUserId: '1215'
+    extract:
+      idcard: $.data[0].idCard
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $.data[0].idCard: $idcard
+    status: 200
+  - title: '获取被保人的证件类型'
+    account:
+      method: 'post'
+      url: 'patient/bindList'
+      json:
+        productUserId: '1215'
+    extract:
+      idType: $.data[0].idTypeText
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $.data[0].idTypeText: $idType
+    status: 200
+
+
+
+
+
+
+
+
+  
