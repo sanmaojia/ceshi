@@ -141,7 +141,20 @@ header_card:
       $..msg: '操作成功'
       $.data[0].idTypeText: $idType
     status: 200
-
+  - title: '获取开屏广告图片'
+    account:
+      method: 'post'
+      url: 'equity/productBanner'
+      json:
+        productNo: 'RZCSdemo01'
+        notLoading: true
+    extract:
+      adname: $..data.banners[0].adName
+    expected:
+      $..code: 0
+      $..msg: '操作成功'
+      $..data.banners[0].adName: $adname
+    status: 200
 
 
 

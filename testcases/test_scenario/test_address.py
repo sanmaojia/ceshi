@@ -12,6 +12,9 @@ from common.color_printer import ColorPrinter
 
 
 datas = Utils.load_yaml(os.path.join(CASE_DIR,'test_scenario','address.yaml'))
+# 给每个用例加上编号信息
+for i, case in enumerate(datas['add_ress']):
+    case['title'] = f"[{i+1}/{len(datas['add_ress'])}] {case['title']}"
 
 
 @allure.feature("用户地址")

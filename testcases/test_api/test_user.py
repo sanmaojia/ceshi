@@ -14,6 +14,9 @@ from common.color_printer import ColorPrinter
 
 #读取测试数据
 datas = Utils.load_yaml(os.path.join(CASE_DIR,'test_api','user.yaml'))
+# 给每个用例加上编号信息
+for i, case in enumerate(datas['send_code']):
+    case['title'] = f"[{i+1}/{len(datas['send_code'])}] {case['title']}"
 
 #测试类继承Utils基类
 class TestUser(Utils):

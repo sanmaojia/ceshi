@@ -13,6 +13,9 @@ from common.color_printer import ColorPrinter
 
 # 读取测试数据
 datas = Utils.load_yaml(os.path.join(CASE_DIR, 'test_api', 'product_detail.yaml'))
+# 给每个用例加上编号信息
+for i, case in enumerate(datas['header_card']):
+    case['title'] = f"[{i+1}/{len(datas['header_card'])}] {case['title']}"
 
 # 测试类
 class TestCard(Utils):
@@ -22,6 +25,7 @@ class TestCard(Utils):
     def test_send_code(self, data):
         # 打印当前执行的用例标题
         ColorPrinter.print(f"执行用例: {data['title']}", color="magenta", bold=True)
+
 
         # 发送请求（send_http 内部自动加 token）
         res = api.send_http(**data['account'])
